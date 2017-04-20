@@ -1,0 +1,30 @@
+{
+  "name": "mean-auth-app",
+  "version": "1.0.0",
+  "description": "MEAN stack Auth app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^7.3.0",
+    "mongoose": "^4.9.5",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elchinot7/mean-auth-app.git"
+  },
+  "author": "Efrain Torres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elchinot7/mean-auth-app/issues"
+  },
+  "homepage": "https://github.com/elchinot7/mean-auth-app#readme"
+}
